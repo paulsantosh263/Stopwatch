@@ -1,0 +1,65 @@
+/* body which shows in the whole page */
+body{
+    background-color: #1b3044;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* container which shows in the button color*/
+#container{
+    color: #d7dfe4;
+}
+/* h1 show the geading of the webpage that is STOPWATCH */
+h1{
+    color: rgb(220, 190, 20);
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+/* design in the hour minute and second hand */
+#time{
+    color: rgb(81, 190, 233);
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(10, 1, 49);
+    border-radius: 10px;
+    border: 2px solid wheat;
+}
+/* digit size set and set weight */
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+/* button styling */
+.btn{
+    padding: 7px 35px;
+    font-size: 20px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* adding background color to the three button */
+#start{
+    background-color: rgb(24, 154, 214);
+}
+#stop{
+    background-color: rgb(150, 98, 1);
+}
+#reset{
+    background-color: rgb(236, 19, 19);
+}
